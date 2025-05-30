@@ -1,0 +1,102 @@
+Description:
+
+This program runs a Discord bot which provides stock candle pattern info using the Polygon market data API
+
+Contents:
+
+assets
+    green_arrow.png
+    green_d.png
+    green_h.png
+    green_m.png
+    green_q.png
+    green_w.png
+    green_y.png
+    red_arrow.png
+    red_d.png
+    red_h.png
+    red_m.png
+    red_q.png
+    red_w.png
+    red_y.png
+.dockerignore
+.env
+.gitignore
+cron.py
+discord-polygon.ipynb
+Dockerfile
+helper.py
+main.py
+polygon_.py
+Procfile
+README
+requirements.txt
+runtime.txt
+scan.py
+StratBot4r1.py
+style.py
+universe.txt
+universe2.txt
+
+Instructions:
+
+(1) Create a bot within the Discord developer portal
+(2) Create a Discord server
+(3) Upload the emoji files to the server (not the developer app), keeping their specific names
+(4) Create a Github repo, and upload this code into it
+(5) Create a cloud server, pull the Gihub code, and run this program using the start command "python main.py"
+
+Environmental variables:
+
+POLYGON_API_KEY=
+SERVER_ID=
+TOKEN=
+
+Resources:
+
+https://discord.com/developers/applications
+https://discord.gg/fWasQR9R
+https://polygon.io/docs/stocks
+
+Contact info:
+
+Tyler Potts
+twpotts11@gmail.com
+https://www.upwork.com/freelancers/~017b47f3ae680d2ef7
+https://www.linkedin.com/in/tyler-potts-022b6573/
+
+Slash commands:
+
+/commandlist
+/signal
+    pattern
+        doji
+        doubleinside
+        gapper
+        hammer
+        holygrail
+        inrev
+        inside
+        momohammer
+        nirvana
+        outrev
+        outside
+        po
+        rev
+        shooter
+    timeframe
+        30-Minute
+        1-Hour
+        2-Hour
+        4-Hour
+        1-Day
+        2-Day
+        4-Day
+        5-Day
+        1-Week
+        2-Week
+        3-Week
+        1-Month
+        1-Quarter
+        6-Month
+        1-Year

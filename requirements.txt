@@ -1,0 +1,10 @@
+datetime
+discord.py
+nest-asyncio
+pandas
+pandas_market_calendars
+plotly
+polygon-api-client
+python-dotenv
+pytz
+requests
